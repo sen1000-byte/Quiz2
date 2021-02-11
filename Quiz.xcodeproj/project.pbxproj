@@ -13,6 +13,12 @@
 		33C0A20025D4E63C0006DEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C0A1FE25D4E63C0006DEB8 /* Main.storyboard */; };
 		33C0A20225D4E63F0006DEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C0A20125D4E63F0006DEB8 /* Assets.xcassets */; };
 		33C0A20525D4E63F0006DEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C0A20325D4E63F0006DEB8 /* LaunchScreen.storyboard */; };
+		33C0A20E25D4E6870006DEB8 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0A20D25D4E6870006DEB8 /* QuizViewController.swift */; };
+		33C0A21125D4E6960006DEB8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0A21025D4E6960006DEB8 /* ResultViewController.swift */; };
+		33C0A22125D4FE2A0006DEB8 /* letgo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 33C0A21D25D4FE2A0006DEB8 /* letgo.PNG */; };
+		33C0A22225D4FE2A0006DEB8 /* pugya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33C0A21E25D4FE2A0006DEB8 /* pugya.jpg */; };
+		33C0A22325D4FE2A0006DEB8 /* yes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33C0A21F25D4FE2A0006DEB8 /* yes.jpg */; };
+		33C0A22425D4FE2A0006DEB8 /* happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33C0A22025D4FE2A0006DEB8 /* happy.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		33C0A20125D4E63F0006DEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33C0A20425D4E63F0006DEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33C0A20625D4E63F0006DEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C0A20D25D4E6870006DEB8 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		33C0A21025D4E6960006DEB8 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		33C0A21D25D4FE2A0006DEB8 /* letgo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letgo.PNG; sourceTree = "<group>"; };
+		33C0A21E25D4FE2A0006DEB8 /* pugya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pugya.jpg; sourceTree = "<group>"; };
+		33C0A21F25D4FE2A0006DEB8 /* yes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yes.jpg; sourceTree = "<group>"; };
+		33C0A22025D4FE2A0006DEB8 /* happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +73,14 @@
 				33C0A1FC25D4E63C0006DEB8 /* ViewController.swift */,
 				33C0A1FE25D4E63C0006DEB8 /* Main.storyboard */,
 				33C0A20125D4E63F0006DEB8 /* Assets.xcassets */,
+				33C0A22025D4FE2A0006DEB8 /* happy.jpg */,
+				33C0A21D25D4FE2A0006DEB8 /* letgo.PNG */,
+				33C0A21E25D4FE2A0006DEB8 /* pugya.jpg */,
+				33C0A21F25D4FE2A0006DEB8 /* yes.jpg */,
 				33C0A20325D4E63F0006DEB8 /* LaunchScreen.storyboard */,
 				33C0A20625D4E63F0006DEB8 /* Info.plist */,
+				33C0A20D25D4E6870006DEB8 /* QuizViewController.swift */,
+				33C0A21025D4E6960006DEB8 /* ResultViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -127,6 +145,10 @@
 				33C0A20525D4E63F0006DEB8 /* LaunchScreen.storyboard in Resources */,
 				33C0A20225D4E63F0006DEB8 /* Assets.xcassets in Resources */,
 				33C0A20025D4E63C0006DEB8 /* Main.storyboard in Resources */,
+				33C0A22325D4FE2A0006DEB8 /* yes.jpg in Resources */,
+				33C0A22125D4FE2A0006DEB8 /* letgo.PNG in Resources */,
+				33C0A22225D4FE2A0006DEB8 /* pugya.jpg in Resources */,
+				33C0A22425D4FE2A0006DEB8 /* happy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C0A21125D4E6960006DEB8 /* ResultViewController.swift in Sources */,
 				33C0A1FD25D4E63C0006DEB8 /* ViewController.swift in Sources */,
 				33C0A1F925D4E63C0006DEB8 /* AppDelegate.swift in Sources */,
 				33C0A1FB25D4E63C0006DEB8 /* SceneDelegate.swift in Sources */,
+				33C0A20E25D4E6870006DEB8 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
