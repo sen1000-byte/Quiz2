@@ -26,7 +26,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kRv-ZE-keg">
                                 <rect key="frame" x="30" y="358" width="354" height="294"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">これから、このキャラクターに関してのグイズが表示されます。
+                                <string key="text">これから、このキャラクターに関してのクイズが表示されます。
 与えられた問題に、下の３つの選択肢から選んで答えてください。
 あなたの「おとうふレベル」が表示されます。</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -119,7 +119,7 @@
                                             <action selector="choiceAnswerWithSender:" destination="R70-gD-uZv" eventType="touchUpInside" id="NYS-CN-5NS"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hju-mV-fTn">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hju-mV-fTn">
                                         <rect key="frame" x="0.0" y="160" width="354" height="60"/>
                                         <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
